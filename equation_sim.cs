@@ -8,7 +8,7 @@ public class equation_sim : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	// Update is called once per frame.
 	void Update () {
 		object_scale cube_obj = GetComponent(object_scale);
 		Vector3 cube_dim = cube_obj.getDimension();
