@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{FC4CDE28-EC19-F926-B30D-782FED9BD50E}") = "mathVR", "Assembly-CSharp-firstpass.csproj", "{79B07E11-DF2F-CB71-3BB1-2EE07AB503A4}"
+EndProject
+Project("{FC4CDE28-EC19-F926-B30D-782FED9BD50E}") = "mathVR", "Assembly-CSharp.csproj", "{93458362-3CAA-6C4C-D68B-39D01E00C849}"
+EndProject
+Project("{FC4CDE28-EC19-F926-B30D-782FED9BD50E}") = "mathVR", "Assembly-CSharp-Editor.csproj", "{3C8D99AE-B641-A7F5-254D-9F1DA29707F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79B07E11-DF2F-CB71-3BB1-2EE07AB503A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B07E11-DF2F-CB71-3BB1-2EE07AB503A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B07E11-DF2F-CB71-3BB1-2EE07AB503A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B07E11-DF2F-CB71-3BB1-2EE07AB503A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93458362-3CAA-6C4C-D68B-39D01E00C849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93458362-3CAA-6C4C-D68B-39D01E00C849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93458362-3CAA-6C4C-D68B-39D01E00C849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93458362-3CAA-6C4C-D68B-39D01E00C849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8D99AE-B641-A7F5-254D-9F1DA29707F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8D99AE-B641-A7F5-254D-9F1DA29707F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8D99AE-B641-A7F5-254D-9F1DA29707F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8D99AE-B641-A7F5-254D-9F1DA29707F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
