@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 
-public class object_scale : MonoBehaviour {
+public class cube_scale : MonoBehaviour {
 	public static float x;
 	public static float y;
 	public static float z;
