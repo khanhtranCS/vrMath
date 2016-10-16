@@ -1,8 +1,11 @@
 using UnityEngine;
 using System.Collections;
 
-public class object_scale : MonoBehaviour {
 
+public class object_scale : MonoBehaviour {
+	public static float x;
+	public static float y;
+	public static float z;
 	// Use this for initialization
 	void Start () {
 
@@ -10,6 +13,9 @@ public class object_scale : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		x = transform.localScale.x;
+		y = transform.localScale.y;
+		z = transform.localScale.z;
 		if (Input.GetAxis ("Mouse ScrollWheel") > 0) {
 			transform.localScale += new Vector3 (0.1F, 0.1F, 0.1F);
 		};
@@ -19,4 +25,5 @@ public class object_scale : MonoBehaviour {
 			}
 		}
 	}
+
 }
